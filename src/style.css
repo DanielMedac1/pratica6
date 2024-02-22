@@ -1,0 +1,139 @@
+body{
+    background-color: lightblue;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+  }
+  
+  #titulo {
+    color: #333;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+    margin: 50px auto;
+    max-width: 80%;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  
+  form {
+    margin-bottom: 20px;
+    margin-right: 50px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #agregarBtn {
+    display: block;
+    width: calc(50% - 5px);
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+
+  #agregarBtn:hover {
+    background-color: #45a049;
+  }
+  
+  .image-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .image-item {
+    width: calc(30% - 20px);
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .image-item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  .image-item h3 {
+    text-align: center;
+  }
+  
+  .image-item button {
+    display: block;
+    margin: 10px auto 0;
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #borrarBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  #borrarBtn:hover {
+    background-color: #e00d0d;
+  }
+
+  #borrarBtn {
+    border-radius: 5px;
+  }
+
+  #eliminarBtn:hover {
+    background-color: #e00d0d;
+  }
+
+  #cantidad {
+    color: #333;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    max-width: 80%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .image-item {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .image-item {
+      width: calc(100% - 20px);
+    }
+  }
